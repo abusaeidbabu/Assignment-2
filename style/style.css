@@ -2,6 +2,7 @@
 .inter{
   font-family: "Inter", sans-serif;
 }
+
 @media screen and (width<640px) {
   #banner {
    width: 100%;
