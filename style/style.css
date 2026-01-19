@@ -2,3 +2,31 @@
 .inter{
   font-family: "Inter", sans-serif;
 }
+@media screen and (width<640px) {
+  #banner {
+   width: 100%;
+   background-size:cover;
+   background-repeat: no-repeat;
+   padding-top: 40px;
+    padding-bottom: 40px;
+  }
+  #banner-container{
+    max-width: 400px;
+    margin: auto;
+    height: 386px;
+    /* width: 100%; */
+  }
+  #banner-img{
+    max-width: 200px;
+    max-height: 200px;
+    background-size: cover;
+    margin-bottom: 0px;
+  }
+  #banner-img img{
+    max-width: 80px;
+    max-height:80px;
+  }
+  #banner-container h1{
+    font-size: 40px;
+  }
+}
